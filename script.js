@@ -31,7 +31,6 @@ onEvent("button1", "click", function () {
   setScreen("screen2");
 });
 onEvent("button2", "click", function () {
-  setScreen("screen1");
   setText("plNoun", "");
   setText("nn1", "");
   setText("nn2", "");

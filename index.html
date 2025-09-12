@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mad-Libs-Game</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="form-control">Mad Libs!</h1>
     <h5>Learning to drive</h5>
-    <br>
-    <form action="/action_page.php">
-  <div class="mb-3 mt-3">
-    <label class="form-label">Plural Noun:</label>
-    <input type="email" class="form-control" id="plrlNn" placeholder="Plural Noun" name="email">
-  </div>
-  <div class="mb-3">
-    <label  class="form-label">Noun</label>
-    <input type="password" class="form-control" id="nn1" placeholder="Noun 1" name="pswd">
-  </div>
-  <div class="form-check mb-3">
-    <form action="/action_page.php">
-  <div class="mb-3 mt-3">
-    <label  for="email" class="form-label">Noun</label>
-    <input type="email" class="form-control" id="nn2" placeholder="Noun 2" name="email">
-  </div>
-  <div class="mb-3">
-    <label id="sng" for="pwd" class="form-label">Song</label>
-    <input type="password" class="form-control" id="sng" placeholder="Enter A Song" name="pswd">
-  </div>
-  <div class="form-check mb-3">
-    <form action="/action_page.php">
-  <div class="mb-3 mt-3">
-    <label id="Vrb" for="email" class="form-label">Verb</label>
-    <input type="email" class="form-control" id="vrb" placeholder="Enter A Verb" name="email">
-  </div>
+    <br />
 
-  <div class="button btn sbmt">Submit</div>
-</body>
+    <div class="mb-3 mt-3">
+      <label class="form-label">Plural Noun:</label>
+      <input
+        type="email"
+        class="form-control"
+        id="plural"
+        placeholder="Plural Noun"
+        name="plrlNoun"
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Noun</label>
+      <input
+        type="email"
+        class="form-control"
+        id="nn1"
+        placeholder="Noun 1"
+        name="noun1"
+      />
+    </div>
+
+    <div class="mb-3 mt-3">
+      <label for="email" class="form-label">Noun</label>
+      <input
+        type="email"
+        class="form-control"
+        id="nn2"
+        placeholder="Noun 2"
+        name="noun2"
+      />
+    </div>
+    <div class="mb-3">
+      <label id="sng" for="pwd" class="form-label">Song</label>
+      <input
+        type="email"
+        class="form-control"
+        id="sng"
+        placeholder="Enter A Song"
+        name="Song"
+      />
+    </div>
+
+    <div class="mb-3 mt-3">
+      <label id="vrb" for="email" class="form-label">Verb</label>
+      <input
+        type="email"
+        class="form-control"
+        id="vrb"
+        placeholder="Enter A Verb"
+        name="Verb"
+      />
+    </div>
+
+    <button id="button2"></button>
+
+    <script src="helpers.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
